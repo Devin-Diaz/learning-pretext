@@ -5,7 +5,7 @@
   <xi:include href="./docinfo.ptx" />
 
   <book xml:id="my-great-book">
-    <title>My Great Book</title>
+    <title>My First Pretext Project</title>
     <subtitle>An example to get you started</subtitle>
 
     <!-- Include frontmatter -->
