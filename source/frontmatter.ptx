@@ -6,25 +6,26 @@
 <frontmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frontmatter">
   <titlepage>
     <author>
-      <personname>You</personname>
-      <department>Your department</department>
-      <institution>Your institution</institution>
+      <personname>Devin Diaz</personname>
+      <department>Computer Science</department>
+      <institution>Framingham State University</institution>
     </author>
     <date>
       <today />
     </date>
   </titlepage>
 
-  <colophon>
+  <!-- a publisher's emblem or imprint, especially one on the title page or spine of a book. -->
+  <colophon> 
 
     <website>
-      <url href="https://pretextbook.org">My Website</url>
+      <url href="https://github.com/Devin-Diaz">Devin's GitHub</url>
     </website>
 
     <copyright>
-      <year>2020<ndash />2023</year>
-      <holder>You</holder>
-      <shortlicense> This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <url href="http://creativecommons.org/licenses/by-sa/4.0/" visual="creativecommons.org/licenses/by-sa/4.0"> CreativeCommons.org</url>
+      <year>2024<ndash />2024</year>
+      <holder>Diaz</holder>
+      <shortlicense> This work is done by the prodigy Devin Diaz himself. To view a copy of this license, visit <url href="https://github.com/Devin-Diaz" visual="https://github.com/Devin-Diaz"/>
       </shortlicense>
     </copyright>
   </colophon>
