@@ -10,13 +10,22 @@ var ptx_lunr_docs = [
   "body": "  Devin's GitHub   copyright  "
 },
 {
-  "id": "sec-section-name",
+  "id": "section-1",
   "level": "1",
-  "url": "sec-section-name.html",
+  "url": "section-1.html",
   "type": "Section",
   "number": "1.1",
-  "title": "Section Title",
-  "body": " Section Title  Making minor changes  "
+  "title": "Background",
+  "body": " Background  My name is Devin Diaz  "
+},
+{
+  "id": "section-2",
+  "level": "1",
+  "url": "section-2.html",
+  "type": "Section",
+  "number": "1.2",
+  "title": "Journey in CSCI 130 - Java 1",
+  "body": " Journey in CSCI 130 - Java 1  Nerves. The best way I could describe how I felt on the first day of my first ever computer science course.  "
 },
 {
   "id": "backmatter-2",
