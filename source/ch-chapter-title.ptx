@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <chapter xml:id="ch-chapter-title" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Chapter Title</title>
+  <title>Introuction To Computer Science In College</title>
 
   <introduction>
-    <p> Text before the first section. </p>
+    <p>The very beginning</p>
   </introduction>
 
   <!-- include sections -->
-  <xi:include href="sec-section-name.ptx" />
+  <xi:include href="section-1.ptx" />
+  <xi:include href="section-2.ptx" />
 
 </chapter>
+

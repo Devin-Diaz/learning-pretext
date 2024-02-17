@@ -5,8 +5,8 @@
   <xi:include href="./docinfo.ptx" />
   
   <book xml:id="my-great-book">
-    <title>Transition From Java To Python</title>
-    <subtitle>A student's perspective</subtitle>
+    <title>Becoming The World's Greatest Software Engineer</title>
+    <subtitle>A student with great ambition</subtitle>
   
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
