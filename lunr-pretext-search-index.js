@@ -16,7 +16,16 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Background",
-  "body": " Background  Devin Diaz is a Hispanic first-generation second-year student at Framingham State University majoring in Computer Science. His traits are ambitious, determined, and resilient along with his strengths including, adaptability, communication bilingual, and critical thinking. Around campus, Devin is a part of Framingham State's competitive programming team and math club, He is a Computer Science tutor for java programming and supplemental instructor for discrete mathematics. Devin is looking for an internship in the software engineering industry, open to all opportunities to expand his knowledge and continue to develop his skillset.   1% chance, 99% faith   "
+  "body": " Background  Devin Diaz is a Hispanic first-generation second-year student at Framingham State University majoring in Computer Science. His traits are ambitious, determined, and resilient along with his strengths including, adaptability, communication bilingual, and critical thinking. Around campus, Devin is a part of Framingham State's competitive programming team and math club, He is a Computer Science tutor for java programming and supplemental instructor for discrete mathematics. Devin is looking for an internship in the software engineering industry, open to all opportunities to expand his knowledge and continue to develop his skillset.   Negative multiple of a curve   Plot of x^4 - 1 and its negative.     "
+},
+{
+  "id": "section-1-3",
+  "level": "2",
+  "url": "section-1.html#section-1-3",
+  "type": "Figure",
+  "number": "1.1.1",
+  "title": "",
+  "body": " Negative multiple of a curve   Plot of x^4 - 1 and its negative.    "
 },
 {
   "id": "section-2",
