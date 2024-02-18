@@ -15,17 +15,26 @@ var ptx_lunr_docs = [
   "url": "section-1.html",
   "type": "Section",
   "number": "1.1",
-  "title": "Background",
-  "body": " Background  Devin Diaz is a Hispanic first-generation second-year student at Framingham State University majoring in Computer Science. His traits are ambitious, determined, and resilient along with his strengths including, adaptability, communication bilingual, and critical thinking. Around campus, Devin is a part of Framingham State's competitive programming team and math club, He is a Computer Science tutor for java programming and supplemental instructor for discrete mathematics. Devin is looking for an internship in the software engineering industry, open to all opportunities to expand his knowledge and continue to develop his skillset.   Negative multiple of a curve   Plot of x^4 - 1 and its negative.     "
+  "title": "Using latex and sageplot ._.",
+  "body": " Using latex and sageplot ._.   Negative multiple of a curve   Plot of x^4 - 1 and its negative.      ma circle   (a circle of radius 3 centered at origin)     "
 },
 {
-  "id": "section-1-3",
+  "id": "section-1-2",
   "level": "2",
-  "url": "section-1.html#section-1-3",
+  "url": "section-1.html#section-1-2",
   "type": "Figure",
   "number": "1.1.1",
   "title": "",
   "body": " Negative multiple of a curve   Plot of x^4 - 1 and its negative.    "
+},
+{
+  "id": "circle",
+  "level": "2",
+  "url": "section-1.html#circle",
+  "type": "Figure",
+  "number": "1.1.2",
+  "title": "",
+  "body": " ma circle   (a circle of radius 3 centered at origin)    "
 },
 {
   "id": "section-2",
@@ -33,8 +42,8 @@ var ptx_lunr_docs = [
   "url": "section-2.html",
   "type": "Section",
   "number": "1.2",
-  "title": "Journey in CSCI 130 - Java 1",
-  "body": " Journey in CSCI 130 - Java 1  Nerves. The best way I could describe how I felt on the first day of my first ever computer science course.  "
+  "title": "Cool maths",
+  "body": " Cool maths  Where my hate for math began   Where my sanity dropped   Thank the lord im a cs major and not math    I can't lie this is pretty cool, use show() to display the math format nicely   "
 },
 {
   "id": "backmatter-2",

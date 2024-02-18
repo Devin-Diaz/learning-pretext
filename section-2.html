@@ -8,13 +8,13 @@
 <html lang="en-US" dir="ltr">
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Journey in CSCI 130 - Java 1</title>
+<title>Cool maths</title>
 <meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:type" content="book">
 <meta property="book:title" content="Becoming The World’s Greatest Software Engineer">
 <meta property="book:author" content="Devin Diaz">
-<script>
+<script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script><script>
 var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
 window.MathJax = {
   "tex": {
@@ -41,7 +41,24 @@ window.MathJax = {
   },
   "options": {
     "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
-    "processHtmlClass": "process-math"
+    "processHtmlClass": "process-math",
+    "renderActions": {
+      "findScript": [
+        10,
+        function (doc) {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(function(node) {
+                var display = !!node.type.match(/; *mode=display/);
+                var math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+                var text = document.createTextNode('');
+                node.parentNode.replaceChild(text, node);
+                math.start = {node: text, delim: '', n: 0};
+                math.end = {node: text, delim: '', n: 0};
+                doc.math.push(math);
+            });
+        },
+        ""
+      ]
+    }
   },
   "chtml": {
     "scale": 0.98,
@@ -69,7 +86,19 @@ window.MathJax = {
     )}
   }
 };
-</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script>// Make *any* pre with class 'sagecell-sage' an executable Sage cell
+// Their results will be linked, only within language type
+sagecell.makeSagecell({
+  "inputLocation": "pre.sagecell-sage",
+  "linked": true,
+  "linkKey": "linked-sage",
+  "autoeval": false,
+  "languages": [
+    "sage"
+  ],
+  "evalButtonText": "Evaluate (Sage)"
+});
+</script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
 <script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
@@ -119,16 +148,47 @@ window.MathJax = {
 <li class="toc-item toc-chapter contains-active">
 <div class="toc-title-box"><a href="ch-chapter-title.html" class="internal"><span class="codenumber">1</span> <span class="title">Introuction To Computer Science In College</span></a></div>
 <ul class="structural toc-item-list contains-active">
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-1.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Background</span></a></div></li>
-<li class="toc-item toc-section active"><div class="toc-title-box"><a href="section-2.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Journey in CSCI 130 - Java 1</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="section-1.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Using latex and sageplot ._.</span></a></div></li>
+<li class="toc-item toc-section active"><div class="toc-title-box"><a href="section-2.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Cool maths</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="section-2"><h2 class="heading hide-type">
-<span class="type">Section</span><span class="space"> </span><span class="codenumber">1.2</span><span class="space"> </span><span class="title">Journey in CSCI 130 - Java 1</span>
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">1.2</span><span class="space"> </span><span class="title">Cool maths</span>
 </h2>
-<div class="para" id="section-2-2">Nerves. The best way I could describe how I felt on the first day of my first ever computer science course.</div></section></div>
+<div class="para logical" id="section-2-2">
+<div class="para">Where my hate for math began</div>
+<div class="displaymath process-math">
+\begin{equation*}
+y = mx + b 
+\end{equation*}
+</div>
+</div>
+<div class="para logical" id="section-2-3">
+<div class="para">Where my sanity dropped</div>
+<div class="displaymath process-math">
+\begin{equation*}
+x = \frac{-b\pm \sqrt{b^2 - 4ac}}{2a} 
+\end{equation*}
+</div>
+</div>
+<div class="para logical" id="section-2-4">
+<div class="para">Thank the lord im a cs major and not math</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{d}{dx} \int_1^x \frac{1}{t}\, dt = \frac{1}{x}
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="eqn-ftc">
+\begin{equation}
+\int_a^b f(x)\, dx = F(b) - F(a)\tag{1.2.1}
+\end{equation}
+</div>
+</div>
+<div class="para" id="section-2-5">I can’t lie this is pretty cool, use show() to display the math format nicely</div>
+<pre id="section-2-6" class="ptx-sagecell sagecell-sage"><script type="text/x-sage">2 + 2
+</script></pre></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="section-1.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="backmatter.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
