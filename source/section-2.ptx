@@ -3,8 +3,29 @@
 
 
 <section xml:id="section-2" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Journey in CSCI 130 - Java 1</title>
+  <title>Cool maths</title>
 
-  <p>Nerves. The best way I could describe how I felt on the first day of my first ever computer science course.</p>
+  <p> Where my hate for math began <me> y = mx + b </me> </p>
+
+  <p> Where my sanity dropped <me> x = \frac{-b\pm \sqrt{b^2 - 4ac}}{2a} </me> </p>
+
+  <p>
+    Thank the lord im a cs major and not math
+    <me>
+      \frac{d}{dx} \int_1^x \frac{1}{t}\, dt = \frac{1}{x}
+    </me>
+    <men xml:id="eqn-ftc">
+      \int_a^b f(x)\, dx = F(b) - F(a)
+    </men>
+  </p>
+
+
+
+  <p> I can't lie this is pretty cool, use show() to display the math format nicely</p>
+  <sage> 
+    <input> 2 + 2 </input>
+    <output> 4 </output>
+  </sage>
+
 
 </section>

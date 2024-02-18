@@ -3,15 +3,7 @@
 
 
 <section xml:id="section-1" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Background</title>
-
-  <p>Devin Diaz is a Hispanic first-generation second-year student at Framingham State University majoring in Computer Science. 
-    His traits are ambitious, determined, and resilient along with his strengths including, adaptability, communication bilingual, 
-    and critical thinking. Around campus, Devin is a part of Framingham State's competitive programming team and math club, 
-    He is a Computer Science tutor for java programming and supplemental instructor for discrete mathematics. Devin is looking for an 
-    internship in the software engineering industry, open to all opportunities to expand his knowledge and continue to 
-    develop his skillset.</p>
-  
+  <title>Using latex and sageplot ._. </title>
 
     <figure>
       <caption>Negative multiple of a curve</caption>
@@ -20,12 +12,24 @@
           <sageplot>
           f(x) = x^4 - 1
           g(x) = -x^4 + 1
-          up = plot(f, (x, -1.5, 1.5), color='blue', thickness=2)
-          down = plot(g, (x, -1.5, 1.5), color='red', thickness=2)
+          up = plot(f, (x, -1.5, 1.5), color='pink', thickness=5)
+          down = plot(g, (x, -1.5, 1.5), color='purple', thickness=5)
           up + down
           </sageplot>
       </image>
     </figure>
+
+    <figure xml:id="circle" width="45%">
+      <caption>ma circle</caption>
+      <image xml:id="circle-tikz">
+        <shortdescription>(a circle of radius 3 centered at origin)</shortdescription>
+        <asymptote>
+          draw(circle((0, 0), 3));
+        </asymptote>
+      </image>
+    </figure>
+
+
 
 
 
