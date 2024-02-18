@@ -12,9 +12,21 @@
     internship in the software engineering industry, open to all opportunities to expand his knowledge and continue to 
     develop his skillset.</p>
   
-  <image xml:id="hope-image" src="C:\Users\Devin Diaz\Desktop\awesome-face-png-1.png\" width="100%">
-    <caption>1% chance, 99% faith</caption>
-  </image>
+
+    <figure>
+      <caption>Negative multiple of a curve</caption>
+      <image xml:id="negative-curve" width="65%">
+          <description>Plot of x^4 - 1 and its negative.</description>
+          <sageplot>
+          f(x) = x^4 - 1
+          g(x) = -x^4 + 1
+          up = plot(f, (x, -1.5, 1.5), color='blue', thickness=2)
+          down = plot(g, (x, -1.5, 1.5), color='red', thickness=2)
+          up + down
+          </sageplot>
+      </image>
+    </figure>
+
 
 
 </section>
