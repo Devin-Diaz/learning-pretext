@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<section xml:id="ch-2-section-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Python script attempt</title>
+    
+    <exercise>
+        <statement>
+            <p>This problem requires the user to write a Python program to calculate the product of two numbers.</p>
+            <p>Instructions:</p>
+            <ol>
+                <li>Prompt the user to enter two numbers.</li>
+                <li>Calculate the product of the two numbers.</li>
+                <li>Display the product to the user.</li>
+            </ol>
+            <p>Here is a code snippet as a reference:</p>
+        </statement>
+        <program interactive="activecode" language="python">
+            <p>Write a Python program to calculate the product of two numbers.</p>
+
+            <codeblock interactive="activecode" language="python">
+                <![CDATA[
+                # Python program to calculate the product of two numbers
+                
+                # Input the first number
+                num1 = float(input("Enter the first number: "))
+                
+                # Input the second number
+                num2 = float(input("Enter the second number: "))
+                
+                # Calculate the product
+                product = num1 * num2
+                
+                # Display the product
+                print("The product of", num1, "and", num2, "is", product)
+                ]]>
+
+            </codeblock>
+        </program>
+    </exercise>
+</section>

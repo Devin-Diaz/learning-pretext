@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="chapter-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Navigating through PreTeXt</title>
+
+  <introduction>
+    <p>How do I even start?</p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="ch-1-section-1.ptx" />
+  <xi:include href="ch-1-section-2.ptx" />
+
+</chapter>
+

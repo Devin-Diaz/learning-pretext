@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="chapter-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Programming attempts in PreTeXt</title>
+
+  <introduction>
+    <p>This is where the pace picks up</p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="ch-2-section-1.ptx" />
+
+</chapter>
