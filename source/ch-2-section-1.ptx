@@ -18,24 +18,28 @@
         <program interactive="activecode" language="python">
             <p>Write a Python program to calculate the product of two numbers.</p>
 
-            <codeblock interactive="activecode" language="python">
-                <![CDATA[
-                # Python program to calculate the product of two numbers
-                
-                # Input the first number
-                num1 = float(input("Enter the first number: "))
-                
-                # Input the second number
-                num2 = float(input("Enter the second number: "))
-                
-                # Calculate the product
-                product = num1 * num2
-                
-                # Display the product
-                print("The product of", num1, "and", num2, "is", product)
-                ]]>
+            <codeblock language="python">
+
+            <![CDATA[
+
+                    # Python program to calculate the product of two numbers
+                    
+                    # Input the first number
+                    num1 = float(input("Enter the first number: "))
+                    
+                    # Input the second number
+                    num2 = float(input("Enter the second number: "))
+                    
+                    # Calculate the product
+                    product = num1 * num2
+                    
+                    # Display the product
+                    print("The product of", num1, "and", num2, "is", product)
+
+            ]]>
 
             </codeblock>
+
         </program>
     </exercise>
 </section>
