@@ -46,6 +46,15 @@ var ptx_lunr_docs = [
   "body": " Cool maths  Where my hate for math began   Where my sanity dropped   Thank the lord im a cs major and not math    I can't lie this is pretty cool, use show() to display the math format nicely   "
 },
 {
+  "id": "ch-1-section-3",
+  "level": "1",
+  "url": "ch-1-section-3.html",
+  "type": "Section",
+  "number": "1.3",
+  "title": "more latex stuff",
+  "body": " more latex stuff  \\documentclass{article} \\usepackage{tikz} \\begin{document} % User input for slope and y-intercept \\newcommand{\\slope}{2} \\newcommand{\\yintercept}{1} \\begin{center} \\begin{tikzpicture}[scale=0.8] % Define axis \\draw[->] (-5,0) -- (5,0) node[right] {$x$}; \\draw[->] (0,-2) -- (0,5) node[above] {$y$}; % Plot the line \\draw[domain=-4:4,smooth,variable=\\x,blue] plot ({\\x},{\\slope*\\x + \\yintercept}); % Label the line \\node[blue, above right] at (3,6) {$y = \\slope x + \\yintercept$}; \\end{tikzpicture} \\end{center} \\end{document}  "
+},
+{
   "id": "ch-2-section-1",
   "level": "1",
   "url": "ch-2-section-1.html",
@@ -70,7 +79,7 @@ var ptx_lunr_docs = [
   "type": "Colophon",
   "number": "",
   "title": "Colophon",
-  "body": " This book was authored in PreTeXt .  "
+  "body": " This book was authored in PreTeXt and by the prodigy Devin Diaz.  "
 }
 ]
 
