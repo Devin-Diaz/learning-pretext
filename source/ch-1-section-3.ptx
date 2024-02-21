@@ -1,0 +1,35 @@
+
+<section xml:id="ch-1-section-3" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>more latex stuff</title>
+    
+
+    <codeblock language="latex">
+        <![CDATA[
+        \documentclass{article}
+        \usepackage{tikz}
+        
+        \begin{document}
+        
+        % User input for slope and y-intercept
+        \newcommand{\slope}{2}
+        \newcommand{\yintercept}{1}
+        
+        \begin{center}
+        \begin{tikzpicture}[scale=0.8]
+        % Define axis
+        \draw[->] (-5,0) -- (5,0) node[right] {$x$};
+        \draw[->] (0,-2) -- (0,5) node[above] {$y$};
+        % Plot the line
+        \draw[domain=-4:4,smooth,variable=\x,blue] plot ({\x},{\slope*\x + \yintercept});
+        % Label the line
+        \node[blue, above right] at (3,6) {$y = \slope x + \yintercept$};
+        \end{tikzpicture}
+        \end{center}
+        
+        \end{document}
+        ]]>
+    </codeblock>
+
+
+
+</section>
